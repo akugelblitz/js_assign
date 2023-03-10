@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+body {
+    font-family: 'Nunito', sans-serif;
+    background: #17191a;
+    min-height: 100vh;
+}
+form{
+    background: #262a2b;
+    padding:0px 20px;
+    width: 30%;
+    height: 50px;
+    /* border: 1px solid red; */
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+#search_input, #search_clear{
+    background: #262a2b;
+    color: white;
+    outline: 0;
+    width: 5%;
+    height: 40px;
+    margin: 5px 0px;
+    border: none;
+    font-size: 20px;
+}
+#search_clear{
+    float: right;
+}
+#search_icon{
+    height: 50px;
+    border: none;
+    width: 2%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 18px;
+    color: white;
+    padding: 0 10px;
+}
+#search_input{
+    margin: 0px;
+    width: 89%;
+}
+.search_clear_hidden{
+    visibility: hidden;
+}
+
+.search_icon_highlight{
+    background: #2950BF;
+    color: black;
+}
+.search_icon_default{
+    background-color: #262a2b;
+    color: white;
+}
+
+#weather{
+    font-family: 'Poppins';
+    width: 31%;
+    /* display: flex; */
+    color: white;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    background: #262a2b;
+    padding: 25px;
+}
+#space_time{
+    line-height: 10px;
+}
+#pic{
+    color: white;
+    background-color: white;
+}
+#colored_text{
+    color: orange;
+    font-weight: 700;
+}
+#location{
+    
+    font-weight: bolder;
+}
+#weather_details{
+    display: flex;
+    height: auto;
+    padding: 0px;
+}
+#temp{
+    font-size: 30px;
+    padding-left: 10px;
+    font-weight: bold;
+    color: orange;
+}
+#bold{
+    font-weight: bolder;
+    margin-top: 15px;
+}
+#weather_items{
+    display: flex;
+    line-height: 50px;
+}
+#weather_items_c1{
+    /* height: auto;
+    display: flex-grow;
+    flex-direction: row;
+    padding: auto; */
+    width: 50%;
+}
+#weather_items_c2{
+    width: 50%;
+}

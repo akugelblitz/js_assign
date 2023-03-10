@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="search">
+        <form onsubmit="submitHandler()" id="search_bar">
+            <input id="search_input" type="text" placeholder="Search..."/><button id="search_clear" class="search_clear_hidden" type="button"><i class="fa fa-xmark"></i></button>
+        </form>
+        <button id="search_icon" type="submit" class="search_icon_default"><i class="fa fa-search"></i></button>
+    </div>
+    
+    <div id="weather">
+        <div id="space_time">
+            <span id="colored_text">_</span>
+            <h2 id="location">_</h2>
+        </div>
+        <div id="weather_details">
+            <img src="" id="pic"/>
+            <span id="temp">_</span>
+        </div>
+        <div id="bold">
+             
+        </div>
+        <div id="weather_items">
+            <ul id="weather_items_c1">
+                <li id="1">_</li>
+                <li id="2">_</li>
+                <li id="3">_</li>
+            </ul>
+            <ul id="weather_items_c2">
+                <li id="4">_</li>
+                <li id="5">_</li>
+                <li id="6">_</li>
+            </ul>
+        </div>
+    </div>
+    <script src = "app.js"></script>
+</body>
+</html>
